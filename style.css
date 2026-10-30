@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'MyFont'; 
+    src: url('rimma.TTF') format('truetype'); 
+}
+
+body {
+    max-width: 58rem;      
+    margin: 2.5rem auto;    
+    background-color: aliceblue;
+}
+
+h1 {
+    color: rgb(51, 58, 79);
+    font-family: 'MyFont'; 
+}
+
+
+#text_h {
+     color: rgb(51, 58, 79);
+     font-size: 1.3rem;
+     font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    min-height: 17em;      
+    box-sizing: border-box;
+    padding: 0.75em;         
+    font: 1rem/1.5 monospace; 
+    border-radius: 0.5em;    
+    border-color: rgb(57, 73, 217);
+}
+
+#input::file-selector-button,
+button {
+    padding: 0.7em 0.9em; 
+    margin: 0.7em 0.5em 0.7em 0; 
+    border-radius: 0.5em;      
+    background-color: white;
+    border-color: rgb(57, 73, 217);
+    color: rgb(57, 73, 217);
+}
+
+#status {
+    padding: 0.625em;    
+    background: #aec9fb;
+    border-radius: 0.5em;   
+}
+
+#dropInput {
+  padding: 1.5rem 1.9rem; 
+  display: inline-flex;  
+  border: 0.125rem dashed rgb(57, 73, 217); 
+  border-radius: 0.625rem;    
+  background: #f8fafc;
+}

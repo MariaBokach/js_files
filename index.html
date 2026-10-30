@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Демонстрация работы с текстовыми файлами</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <h1>Работа с текстовыми файлами в JavaScript</h1>
+        <div class="read">
+            <input id="input" type="file" accept="text/*">
+            <div id="dropInput"> Или перетащите файл сюда</div>
+            <button id="input3">Или открой файл здесь</button>
+        </div>
+
+        <p id="status"> Файл ещё не выбран. Для создания файла можно ввести текст вручную.</p>
+
+        <label id="text_h" for="text">Содержимое файла:</label>
+        <textarea id="text" placeholder="Выберите файл или введите текст вручную..."></textarea>
+
+        <div class="write">
+            <button id="download">Скачать result.txt</button>
+            <button id="save">Сохранить как…</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
